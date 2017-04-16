@@ -1,0 +1,6 @@
+<el-tab-pane label="小工具" name="4">
+		<el-card v-for="obj in arrs4" class="box-card" @click.native="t(obj.url)">
+			<img :src="obj.img" />
+			<p align="center">{{obj.text}}</p>
+		</el-card>
+	</el-tab-pane>

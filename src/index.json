@@ -1,0 +1,15 @@
+{
+  "pages": [
+    {"url": "/", "path": "./pages/index"}
+  ],
+  "title": "网址导航",
+  "components": [
+  ],
+  "404": "/404",
+  "own_css_list": [
+    "https://unpkg.com/element-ui/lib/theme-default/index.css"
+  ],
+  "own_js_list": [
+    "https://unpkg.com/element-ui/lib/index.js"
+  ]
+}
