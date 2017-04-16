@@ -26,7 +26,8 @@ var arrs4 = [
 
 function checkSubmit(){
 	var url = "https://www.baidu.com/s?wd=" + app.vm.formInline.text;
-			open(url);
+	open(url);
+	return false;
 }
 
 app.init({
