@@ -1,6 +1,6 @@
 {
   "pages": [
-    {"url": "/navigation/", "path": "./pages/index"}
+    {"url": "/", "path": "./pages/index"}
   ],
   "title": "网址导航",
   "components": [
