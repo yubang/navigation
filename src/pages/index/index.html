@@ -1,7 +1,7 @@
 
 <!-- 搜索区域 -->
 <div class="css1">
-<el-form :inline="true" :model="formInline" class="demo-form-inline">
+<el-form :inline="true" :model="formInline" class="demo-form-inline" onSubmit="return checkSubmit();">
   <el-form-item label="">
     <el-input v-model="formInline.text" placeholder="请输入要搜索的内容"></el-input>
   </el-form-item>

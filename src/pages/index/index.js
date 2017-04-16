@@ -24,6 +24,11 @@ var arrs4 = [
 	{url: 'http://tool.chinaz.com/Tools/urlencode.aspx', img: '/src/pic/7.png', text: 'urlencode'}
 ];
 
+function checkSubmit(){
+	var url = "https://www.baidu.com/s?wd=" + app.vm.formInline.text;
+			open(url);
+}
+
 app.init({
 	data: {
 		formInline: {},
